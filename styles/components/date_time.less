@@ -1,0 +1,128 @@
+/**
+ * Availa
+ * --------------------------------
+*/
+/**
+ * Table of Contents Date-time Page:
+ * 1.
+ * 2.
+ * 3.
+ * 4.
+ * --------------------------------
+*/
+@import "../variables";
+
+.ui-widget-header.ui-datepicker-header{
+    background: #ffffff;
+    color: #1b1f3f;
+    border: none;
+
+}
+
+.ui-widget-header.ui-datepicker-header .ui-datepicker-prev {
+    border: none;
+    height: 30px;
+    width: 30px;
+    left: 0;
+    top: 0;
+    .ui-icon{
+        top: 8px;
+        width: 20px;
+        height: 20px;
+        padding: 6px;
+        left: 8px;
+        border: none;
+        background-size: 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: all .1s ease-in-out;
+        background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAzMDYgNDkyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMDYgNDkyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8dGl0bGU+PC90aXRsZT4NCjxnIGlkPSJpY29tb29uLWlnbm9yZSI+DQo8L2c+DQo8cGF0aCBkPSJNMjY4LjUsNDY4YzEwLTEyLDEwLTMwLDAtNDBsLTE4MC0xODBsMTgwLTE4MGMxMC0xMCw4LTMwLTQtNDBjLTEwLTgtMjQtOC0zNiwwbC0yMDAsMjAwYy0xMCwxMi0xMCwyOCwwLDQwbDIwMCwyMDANCglDMjQwLjUsNDc4LDI1Ni41LDQ3OCwyNjguNSw0Njh6Ii8+DQo8L3N2Zz4NCg==");
+        &:hover{
+            background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAzMDYgNDkyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMDYgNDkyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojRkZGRkZGO30NCjwvc3R5bGU+DQo8dGl0bGU+PC90aXRsZT4NCjxnIGlkPSJpY29tb29uLWlnbm9yZSI+DQo8L2c+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjY4LjUsNDY4YzEwLTEyLDEwLTMwLDAtNDBsLTE4MC0xODBsMTgwLTE4MGMxMC0xMCw4LTMwLTQtNDBjLTEwLTgtMjQtOC0zNiwwbC0yMDAsMjAwYy0xMCwxMi0xMCwyOCwwLDQwDQoJbDIwMCwyMDBDMjQwLjUsNDc4LDI1Ni41LDQ3OCwyNjguNSw0Njh6Ii8+DQo8L3N2Zz4NCg==");
+            background-color: #37a8af;
+            background-repeat: no-repeat;
+            border-color: transparent;
+        }
+    }
+
+}
+.ui-datepicker.ui-widget.ui-widget-content{
+    border: solid 2px #1b1f3f;
+    margin: -2px 0 0 0;
+    padding: 0;
+}
+.ui-widget-header.ui-datepicker-header .ui-datepicker-next {
+    border: none;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    right: 0;
+    .ui-icon{
+        top: 8px;
+        width: 20px;
+        height: 20px;
+        padding: 6px;
+        right: 0;
+        left: auto;
+
+        background-size: 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: all .1s ease-in-out;
+        background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAzMDYgNDkyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMDYgNDkyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8dGl0bGU+PC90aXRsZT4NCjxnIGlkPSJpY29tb29uLWlnbm9yZSI+DQo8L2c+DQo8cGF0aCBkPSJNMzMsMjkuNWMtMTAsMTItMTAsMzAsMCw0MGwxODAsMTgwbC0xODAsMTgwYy0xMCwxMC04LDMwLDQsNDBjMTAsOCwyNCw4LDM2LDBsMjAwLTIwMGMxMC0xMiwxMC0yOCwwLTQwTDczLDI5LjUNCglDNjEsMTkuNSw0NSwxOS41LDMzLDI5LjV6Ii8+DQo8L3N2Zz4NCg==");
+        &:hover{
+            background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAzMDYgNDkyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMDYgNDkyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojRkNGQ0ZDO30NCjwvc3R5bGU+DQo8dGl0bGU+PC90aXRsZT4NCjxnIGlkPSJpY29tb29uLWlnbm9yZSI+DQo8L2c+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzMsMjkuNWMtMTAsMTItMTAsMzAsMCw0MGwxODAsMTgwbC0xODAsMTgwYy0xMCwxMC04LDMwLDQsNDBjMTAsOCwyNCw4LDM2LDBsMjAwLTIwMGMxMC0xMiwxMC0yOCwwLTQwDQoJTDczLDI5LjVDNjEsMTkuNSw0NSwxOS41LDMzLDI5LjV6Ii8+DQo8L3N2Zz4NCg==");
+            background-color: #37a8af;
+            background-repeat: no-repeat;
+            border-color: transparent;
+        }
+    }
+
+}
+
+.ui-datepicker.ui-widget .ui-state-default,
+.ui-datepicker.ui-widget .ui-widget-content .ui-state-default,
+.ui-datepicker.ui-widget .ui-widget-header .ui-state-default,
+.ui-datepicker.ui-widget .ui-button{
+    border: 1px solid transparent;
+    background: transparent;
+    font-weight: normal;
+    text-align: center;
+    color: #1b1f3f;
+}
+.ui-datepicker.ui-widget .ui-datepicker-calendar .ui-state-default:hover,
+.ui-datepicker.ui-widget .ui-datepicker-calendar .ui-state-default:active {
+    border: 1px solid transparent;
+    background-color: #ebeef0;
+    font-weight: normal;
+}
+.ui-datepicker.ui-widget .ui-datepicker-calendar .ui-state-highlight,
+.ui-datepicker.ui-widget .ui-datepicker-calendar .ui-widget-content .ui-state-highlight,
+.ui-datepicker.ui-widget .ui-datepicker-calendar .ui-widget-header .ui-state-highlight {
+    border: 1px solid #37a8af;
+    background-color: #37a8af;
+    color: #ffffff;
+    &:hover{
+        border: 1px solid #37a8af;
+        background-color: #37a8af;
+        color: #ffffff;
+    }
+}
+
+.ui-datepicker-title{
+    font-size: 18px;
+    text-align: left;
+    color: #1b1f3f;
+    font-weight: normal;
+}
+.ui-datepicker-year{
+    display: none;
+}
+
+.ui-datepicker .ui-datepicker-calendar thead tr{
+    border-bottom: 2px solid #1b1f3f;
+}
+.ui-datepicker .ui-datepicker-calendar th{
+    font-weight: 600;
+    color: #a3a7b3;
+}

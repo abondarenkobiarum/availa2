@@ -1,0 +1,84 @@
+/**
+ * Availa
+ * --------------------------------
+*/
+/**
+ * Buttons styles
+ * --------------------------------
+*/
+.button {
+  border: none;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 22px;
+  text-align: center;
+  line-height: normal;
+  width: 337px;
+  height: 57px;
+}
+.button--icon {
+  width: 185px;
+}
+.button--disabled,
+.button:disabled {
+  cursor: default;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+  -moz-opacity: 0.03;
+  -khtml-opacity: 0.03;
+  opacity: 0.03;
+}
+.label-icon {
+  position: relative;
+}
+.label-icon .icon {
+  position: absolute;
+  font-size: 23px;
+  color: #ffffff;
+}
+.button--primary {
+  background-color: #37a8af;
+  color: #ffffff;
+}
+.button--primary:hover,
+.button--primary:focus {
+  background-color: #37a8af;
+}
+.button--primary:active {
+  background-color: #37a8af;
+  color: #ffffff;
+}
+.button--tab {
+  background-color: #fff;
+  border: 1px solid #37a8af;
+  text-decoration: none;
+  max-width: 170px;
+  display: inline-block;
+  font-size: 15px;
+  color: #1b1f3f;
+  width: 100%;
+  height: auto;
+  padding: 6px 6px 5px 6px;
+  box-sizing: border-box;
+}
+.button--tab:hover,
+.button--tab:focus,
+.button--tab:active,
+.button--tab-active {
+  background-color: #37a8af;
+  border: 1px solid #37a8af;
+  color: #ffffff;
+}
+.button--secondary {
+  background-color: #1b1f3f;
+  color: #ffffff;
+}
+.button--secondary:hover,
+.button--secondary:focus {
+  background-color: #1b1f3f;
+  color: #ffffff;
+}
+.button--secondary:active {
+  background-color: #1b1f3f;
+  color: #ffffff;
+}

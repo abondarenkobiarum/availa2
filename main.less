@@ -1,0 +1,135 @@
+//change in style css start
+
+.ui-selectmenu-menu.ui-selectmenu-open .ui-widget.ui-widget-content {
+  max-width: none;
+}
+
+.text + .ui-selectmenu-button.ui-button.ui-widget, .select + .ui-selectmenu-button.ui-button.ui-widget {
+  max-width: none;
+}
+
+.form-field--secondary {
+  max-width: none;
+}
+
+.form-field--small {
+  max-width: 200px !important;
+}
+
+.button--icon {
+  width: 100%;
+}
+
+//change in style css end
+
+.table-body__info {
+  width: 100%;
+  display: flex;
+  padding: 25px 0;
+  &--blocks {
+    width: 100%;
+    &.button-part {
+      max-width: 170px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .collapse-btn {
+        margin-right: 35px;
+        background-color: #FFFFFF;
+        color: #37A8AF;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        border: 2px solid #D8E3EB;
+        position: relative;
+        i {
+          margin: -10px 0 0 0;
+          position: absolute;
+          font-size: 50px;
+          /* height: 32px; */
+          /* width: 32px; */
+          left: auto;
+          right: -9px;
+          top: 4px;
+        }
+      }
+    }
+    .subtitle {
+      color: #A6A9B5;
+      font-size: 14px;
+    }
+    .value {
+      margin-top: 10px;
+      color: #1B1F3F;
+      font-size: 18px;
+    }
+  }
+}
+
+.table-body__collapse {
+  width: ~"calc(100% - 170px)";
+  display: flex;
+  border-top: 1px solid #E1E1E1;
+  padding: 25px 0;
+  &--left-tabs {
+    width: 100%;
+    max-width: 170px;
+    .tab {
+      height: 28px;
+      line-height: 14px;
+      font-size: 14px;
+      background-color: #fff;
+      box-shadow: none;
+      display: block;
+      cursor: pointer;
+      padding: 5px 10px;
+      margin-bottom: 5px;
+      position: relative;
+      border: 1px solid transparent;
+      border-right: none;
+      &:after, &:before {
+        content: '';
+        position: absolute;
+        right: -27px;
+        bottom: -1px;
+        border: 14px solid transparent;
+        border-left: 14px solid #37A8AF;
+        z-index: 1;
+        visibility: hidden;
+      }
+      &:before {
+        border: 13px solid transparent;
+        border-left: 13px solid #fff;
+        z-index: 2;
+        right: -25px;
+        bottom: 0;
+      }
+      &:hover {
+        background-color: #37A8AF;
+        border-color: #37A8AF;
+        border-right: none;
+        color: #fff;
+        &:after, &:before {
+          visibility: visible;
+        }
+        &:before {
+          border-left-color: #37A8AF;
+        }
+      }
+      &.active {
+        border-color: #37A8AF;
+        border-right: none;
+        &:after, &:before {
+          visibility: visible;
+        }
+        &:hover {
+          background-color: #37A8AF;
+          color: #fff;
+        }
+      }
+    }
+  }
+  &--graph {
+    width: 100%;
+  }
+}
