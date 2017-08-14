@@ -1313,3 +1313,19 @@ body {
   max-width: 170px;
   max-height: 42px;
 }
+.ui-selectmenu-menu.ui-selectmenu-open .ui-widget.ui-widget-content {
+  max-width: none;
+}
+.text + .ui-selectmenu-button.ui-button.ui-widget,
+.select + .ui-selectmenu-button.ui-button.ui-widget {
+  max-width: none;
+}
+.form-field--secondary {
+  max-width: none;
+}
+.form-field--small {
+  max-width: 200px !important;
+}
+.button--icon {
+  width: 100%;
+}
